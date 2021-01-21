@@ -34,7 +34,7 @@ jobs:
         run: |
           cd ~/jd_scripts
           npm install
-      - name: '运行 【京东直播】'
+      - name: '运行 【集鞭炮赢京豆】'
         run: |
           cd ~/jd_scripts
           node jd_firecrackers.js
