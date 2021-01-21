@@ -35,7 +35,7 @@ jobs:
         run: |
           cd ~/jd_scripts
           npm install
-      - name: '运行 【京豆变动通知】'
+      - name: '运行 【京东炸年兽签到】'
         run: |
           cd ~/jd_scripts
           node jd_nian_sign.js
