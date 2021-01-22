@@ -7,7 +7,7 @@ name: 京豆炸年兽
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 2 * * *'
+    - cron: '0 20 * * *'
   watch:
     types: started
   repository_dispatch:

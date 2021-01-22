@@ -6,7 +6,7 @@ name: 京东汽车赛点兑换京豆
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '15 16 * * *'
   watch:
     types: started
   repository_dispatch:

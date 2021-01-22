@@ -6,7 +6,7 @@ name: 京东排行榜签到得京豆
 on:
   workflow_dispatch:
   schedule:
-    - cron: '11 18 * * *'
+    - cron: '11 17 * * *'
   watch:
     types: started
   repository_dispatch:
