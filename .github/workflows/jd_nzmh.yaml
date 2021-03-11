@@ -6,7 +6,7 @@ name: 女装盲盒抽京豆
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 8 9-20 3 * *'
+    - cron: '0 8 9-20 3 * '
   watch:
     types: started
   repository_dispatch:
