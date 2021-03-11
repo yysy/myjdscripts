@@ -6,7 +6,7 @@ name: 京东极速版红包
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 1,2,3,27,28 2-3 *'
+    - cron: '0 0 8-25 3 *'
   watch:
     types: started
   repository_dispatch:
