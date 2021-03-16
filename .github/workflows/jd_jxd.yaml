@@ -6,7 +6,7 @@ name: 京小兑
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 15 * * *'
+    - cron: '33 8,15 * * *'
   watch:
     types: started
   repository_dispatch:
