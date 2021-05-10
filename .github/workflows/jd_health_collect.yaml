@@ -11,7 +11,7 @@ on:
     types: started
   repository_dispatch:
     types: jd_health_collect
-    
+ jobs: 
   build:
 
     runs-on: ubuntu-latest
