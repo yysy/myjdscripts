@@ -44,4 +44,3 @@ jobs:
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
           JD_USER_AGENT: ${{ secrets.JD_USER_AGENT }}
           PUSH_KEY: ${{ secrets.PUSH_KEY }}
-       
